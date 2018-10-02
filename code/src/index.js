@@ -40,8 +40,8 @@ class Clock extends React.Component {
           <h1>The Local Time Is:</h1>
           <h2>{this.state.date.toLocaleTimeString()}</h2>
           <div className="actionButtons">
-          <button onClick={this.stopClock}>Stop Clock</button>
-          <button onClick={this.startClock}>Start Clock</button>
+            <button onClick={this.stopClock}>Stop Clock</button>
+            <button onClick={this.startClock}>Start Clock</button>
           </div>
         </div>
       </div>

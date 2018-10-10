@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/darkforrest.jpg");
+  background-image: url("/leafs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .myClockPage{
@@ -50,4 +55,10 @@ button{
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+}
+@media (max-width: 600px){
+  .myClock{
+    width: 100%;
+    text-align: center;
+  }
 }

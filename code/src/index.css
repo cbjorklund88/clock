@@ -42,6 +42,7 @@ button{
   outline: none;
   margin: 10px;
   background: white;
+  cursor: pointer;
 }
 
 .actionButtons {

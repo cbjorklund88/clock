@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("/leafs.jpg");
+  background-image: url("./images/leafs.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
